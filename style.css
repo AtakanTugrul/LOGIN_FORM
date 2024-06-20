@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+  background-color: #131034;
+}
+.sign-up {
+  width: 300px;
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  background: url(https://mfiles.alphacoders.com/100/1001881.jpg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.sign-up h1 {
+  color: white;
+  margin-top: 100px;
+  font-size: 40px;
+}
+.sign-up input {
+  display:block;
+  width: 100%;
+  padding:0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+}
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}
+.sign-up-btw{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #538fef;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sign-up-btw:hover{
+    background-color: white;
+    color: #538fef;
+    transform: scale(0.96);
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    
+}
+a:hover{
+    transform: scale(0.96);
+    color: wheat;
+    font-size: 14px;
+
+}
